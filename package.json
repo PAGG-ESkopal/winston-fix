@@ -1,15 +1,16 @@
 {
-  "name": "winston",
+  "name": "winston-fix",
   "description": "A multi-transport async logging library for Node.js",
-  "version": "2.1.0",
+  "version": "2.1.0-beta.1",
   "author": "Charlie Robbins <charlie.robbins@gmail.com>",
   "maintainers": [
+    "Eugene Skopal <eugene.npmjs@ae2fdesigns.com>",
     "Jarrett Cruger <jcrugzz@gmail.com>",
     "Alberto Pose <albertopose@gmail.com>"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/winstonjs/winston.git"
+    "url": "https://github.com/pagg-eskopal/winston-fix.git"
   },
   "keywords": [
     "winston",
