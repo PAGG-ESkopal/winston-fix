@@ -1,7 +1,4 @@
-# eskopal/winston
-
-## Fixes
-Force colorization even if the console can't display it (so other transports get colorized output)
+# winston-fix
 
 [![Join the chat at https://gitter.im/winstonjs/winston](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/winstonjs/winston?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
@@ -10,6 +7,10 @@ Force colorization even if the console can't display it (so other transports get
 [![NPM](https://nodei.co/npm/winston.png?downloads=true&downloadRank=true)](https://nodei.co/npm/winston/)
 
 A multi-transport async logging library for node.js. <span style="font-size:28px; font-weight:bold;">&quot;CHILL WINSTON! ... I put it in the logs.&quot;</span>
+
+## <span style="color:green">Fixes</span>
+- <span style="color:green">Force colorization even if the console can't display it (so other transports get colorized output)</span>
+- <span style="color:green">Add 'none' as a color choice</span>
 
 ## Motivation
 Winston is designed to be a simple and universal logging library with support for multiple transports. A transport is essentially a storage device for your logs. Each instance of a winston logger can have multiple transports configured at different levels. For example, one may want error logs to be stored in a persistent remote location (like a database), but all logs output to the console or a local file.
