@@ -11,6 +11,7 @@ A multi-transport async logging library for node.js. <span style="font-size:28px
 ## Fixes
 - **Force colorization even if the console can't display it**<br /> (so other transports get colorized output)
 - **Add 'none' as a color choice**
+- **Pass formatted metaText to user supplied formatter**
 
 ## Motivation
 Winston is designed to be a simple and universal logging library with support for multiple transports. A transport is essentially a storage device for your logs. Each instance of a winston logger can have multiple transports configured at different levels. For example, one may want error logs to be stored in a persistent remote location (like a database), but all logs output to the console or a local file.
